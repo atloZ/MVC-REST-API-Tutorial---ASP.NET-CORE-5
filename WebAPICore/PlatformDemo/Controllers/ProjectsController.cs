@@ -21,7 +21,17 @@ namespace PlatformDemo.Controllers
         {
             return Ok($"Reading all the projects #{id}");
         }
-
+        /// <summary>
+        /// api/projekts/{pid}/tickets?tid{tid}
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("/api/projekts/{pid}/tickets/{tid}")]
+        public IActionResult GetProjectTicket(int pId, int tId)
+        {
+            return Ok("Creating a project");
+        }
+        
         [HttpPost]
         public IActionResult Post()
         {
