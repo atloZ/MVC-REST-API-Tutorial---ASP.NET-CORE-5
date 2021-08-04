@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PlatformDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,14 +23,19 @@ namespace PlatformDemo.Controllers
             return Ok($"Reading all the projects #{id}");
         }
         /// <summary>
-        /// api/projekts/{pid}/tickets?tid{tid}
+        /// api/projects/{pid}/tickets?tid{tid}
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [Route("/api/projekts/{pid}/tickets/{tid}")]
-        public IActionResult GetProjectTicket(int pId, int tId)
+        [Route("/api/projects/{pid}/tickets")]
+        public IActionResult GetProjectTicket([FromQuery]Ticket ticket)
         {
-            return Ok("Creating a project");
+            if (ticket == null) return BadRequest("Parameters are not provided property!");
+
+            if (ticket.TicketId == 0)
+                return Ok($"Reading all the tickets belong to projest #{ticket.ProjektId}");
+            else
+                return Ok($"Reading project #{ticket.ProjektId}, ticket #{ticket.TicketId}, title: {ticket.Title}, description: {ticket.Description}");
         }
         
         [HttpPost]
