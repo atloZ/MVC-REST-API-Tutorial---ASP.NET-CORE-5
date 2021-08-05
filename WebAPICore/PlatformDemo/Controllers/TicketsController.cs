@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PlatformDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,15 +24,19 @@ namespace PlatformDemo.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post()
+        public IActionResult Post([FromBody]Ticket ticket)
         {
-            return Ok("Creating a ticket");
+            //if (ticket != null)
+            //{
+            //    ticket.
+            //}
+            return Ok(ticket);
         }
 
         [HttpPut]
-        public IActionResult Put()
+        public IActionResult Put([FromBody]Ticket ticket)
         {
-            return Ok("Update a ticket");
+            return Ok(ticket);
         }
 
         [HttpDelete("{id}")]
