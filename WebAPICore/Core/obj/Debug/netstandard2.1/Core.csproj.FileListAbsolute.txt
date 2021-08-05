@@ -1,0 +1,9 @@
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\bin\Debug\netstandard2.1\Core.deps.json
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\bin\Debug\netstandard2.1\Core.dll
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\obj\Debug\netstandard2.1\Core.dll
+C:\Users\Thinky\OneDrive\prog\C#\Web\MVC-REST-API-Tutorial---ASP.NET-CORE-5\WebAPICore\Core\obj\Debug\netstandard2.1\Core.pdb
