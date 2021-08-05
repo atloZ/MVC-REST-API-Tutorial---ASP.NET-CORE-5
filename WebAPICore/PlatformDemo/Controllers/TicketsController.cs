@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PlatformDemo.Filter;
 using PlatformDemo.Models;
 using System;
 using System.Collections.Generic;
@@ -24,12 +25,16 @@ namespace PlatformDemo.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody]Ticket ticket)
+        public IActionResult PostV1([FromBody]Ticket ticket)
         {
-            //if (ticket != null)
-            //{
-            //    ticket.
-            //}
+            return Ok(ticket);
+        }
+        
+        [HttpPost]
+        [Route("/api/v2/tickets")]
+        [Ticket_EnsureEnteredDate]
+        public IActionResult PostV2([FromBody]Ticket ticket)
+        {
             return Ok(ticket);
         }
 
