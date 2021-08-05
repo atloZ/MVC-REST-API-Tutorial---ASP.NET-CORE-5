@@ -32,7 +32,7 @@ namespace PlatformDemo.Controllers
         
         [HttpPost]
         [Route("/api/v2/tickets")]
-        [Ticket_EnsureEnteredDate]
+        [Ticket_ValidateDatesActionFilter]
         public IActionResult PostV2([FromBody]Ticket ticket)
         {
             return Ok(ticket);

@@ -22,7 +22,7 @@ namespace PlatformDemo.Filter
                     {
                         Versioning = new[] { "This version of the API has expired, please use the latest version" }
                     }
-                    )
+                    );
             }
         }
     }
