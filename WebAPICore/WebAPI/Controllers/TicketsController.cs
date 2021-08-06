@@ -26,10 +26,6 @@ namespace PlatformDemo.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Ticket ticket)
         {
-            if (mod)
-            {
-
-            }
             return Ok(ticket);
         }
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Core.Models
 {
-    class Project
+    public class Project
     {
         public int ProjcetId { get; set; }
         [Required]
